@@ -1,0 +1,21 @@
+{
+  "name": "fixing-a11y-issues",
+  "version": "1.0.0",
+  "description": "Example project used during the talk: Identifying and fixing the most common web accessibility issues",
+  "author": "Tatiane Aguirres Nogueira",
+  "license": "MIT",
+  "main": "app.js",
+  "engines": {
+    "npm": "9.2.0",
+    "node": "18.12.1"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

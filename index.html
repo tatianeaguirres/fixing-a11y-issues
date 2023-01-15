@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -12,75 +12,73 @@
 <body>
   <header class="mb-5 bg-dark">
     <div class="container d-flex align-items-center p-3">
-      <a href="/" class="d-flex align-items-center">
-        <img class="logo" src="assets/brand/pizza.png" alt="pizza">
+      <a href="/" class="d-flex align-items-center text-decoration-none">
+        <img class="logo" src="assets/brand/pizza.png" alt="" aria-hidden="true">
+        <h1 class="ms-3 h1 text-white">The Best Italian Recipes</h1>
       </a>
-      <span class="ms-3 h1 text-white">The Best Italian Recipes</span>
     </div>
   </header>
 
   <main class="container">
-    <section>
-      <h3 class="fs-2 mb-2">Find the best recipe for you</h3>
+    <section aria-labelledby="find-recipes">
+      <h2 class="fs-2 mb-2" id="find-recipes">Find the best recipe for you</h2>
       <blockquote class="blockquote">
         <p>Italian food is known for its delicious and rich flavors, which are derived from a combination of
           high-quality ingredients and traditional cooking techniques. One of the key reasons why Italian food is so
           good is the emphasis on using fresh, seasonal ingredients.</p>
       </blockquote>
       <div class="col-12 col-md-6  mt-5">
-        <div class="input-group">
-          <input type="text" class="form-control border-dark" id="search" placeholder="Search for recipes" required>
+        <form class="input-group" id="search" role="search">
+          <input type="text" class="form-control border-dark" name="search" id="search-input"
+            placeholder="Search for recipes" aria-label="Search for recipes" required>
           <button class="btn btn-outline-dark">
-            <img src="assets/brand/search.png" alt="">
+            <img src="assets/brand/search.png" alt="Search">
           </button>
-        </div>
+        </form>
       </div>
     </section>
 
     <hr class="col-12 my-5">
 
-    <section>
-      <h3 class="fs-2 mb-2">More popular</h3>
+    <section aria-labelledby="more-popular">
+      <h2 class="fs-2 mb-2" id="more-popular">More popular</h2>
       <div class="row g-4 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <div class="my-3">
-            <a href="/">
-              <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="">
-            </a>
+            <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="" aria-hidden="true">
           </div>
           <h3 class="fs-2 mb-2">Carbonara pasta</h3>
           <p>Carbonara is a popular Italian dish made with pasta, eggs, cheese, bacon or pancetta, and black
             pepper. It is known for its creamy, rich flavor, which is created by the combination of the egg yolk and
             cheese with the salty, savory bacon or pancetta.</p>
-          <a href="#" class="btn btn-outline-dark">
+          <a href="/carbonara" class="btn btn-outline-dark" aria-label="See the Carbonara pasta recipe in a new tab"
+            target="_blank">
             See more
           </a>
         </div>
         <div class="feature col">
           <div class="my-3">
-            <a href="/">
-              <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="">
-            </a>
+            <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="" aria-hidden="true">
           </div>
           <h3 class="fs-2 mb-2">Margherita pizza</h3>
           <p>Margherita is a classic Italian pizza that is made with a simple combination of ingredients: tomato
             sauce, mozzarella cheese, fresh basil, and olive oil. The key to the deliciousness of Pizza Margherita is
             the use of high-quality, fresh ingredients.</p>
-          <a href="#" class="btn btn-outline-dark">
+          <a href="/margherita" class="btn btn-outline-dark" aria-label="See the Margherita pizza recipe in a new tab"
+            target="_blank">
             See more
           </a>
         </div>
         <div class="feature col">
           <div class="my-3">
-            <a href="/">
-              <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="">
-            </a>
+            <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="" aria-hidden="true">
           </div>
           <h3 class="fs-2 mb-2">Al funghi risotto</h3>
           <p>Al funghi is a popular mushroom risotto made with a variety of wild mushrooms and flavored with
             white wine and Parmesan cheese. The risotto is a versatile dish that can be made with a wide variety of
             ingredients.</p>
-          <a href="#" class="btn btn-outline-dark">
+          <a href="/al-funghi" class="btn btn-outline-dark" aria-label="See the Al funghi risotto recipe in a new tab"
+            target="_blank">
             See more
           </a>
         </div>
@@ -89,50 +87,47 @@
 
     <hr class="col-12 my-5">
 
-    <section>
-      <h3 class="fs-2 mb-2">The best pizzas</h3>
+    <section aria-labelledby="best-pizzas">
+      <h2 class="fs-2 mb-2" id="best-pizzas">The best pizzas</h2>
       <div class="row g-4 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <div class="my-3">
-            <a href="/">
-              <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="">
-            </a>
+            <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="" aria-hidden="true">
           </div>
           <h3 class="fs-2 mb-2">Four cheese pizza</h3>
           <p>A four cheese typically consists of a pizza crust topped with a tomato sauce and a mixture of four
             different types of cheeses, such as mozzarella, parmesan, ricotta and gouda. It is a popular pizza variation
             that combines the flavors and textures of different cheeses for a delicious and rich taste.</p>
-          <a href="#" class="btn btn-outline-dark">
+          <a href="/four-cheese" class="btn btn-outline-dark" aria-label="See the Four cheese pizza recipe in a new tab"
+            target="_blank">
             See more
           </a>
         </div>
         <div class="feature col">
           <div class="my-3">
-            <a href="/">
-              <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="">
-            </a>
+            <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="" aria-hidden="true">
           </div>
           <h3 class="fs-2 mb-2">Pepperoni pizza</h3>
           <p>Pepperoni is a type of pizza that typically consists of a pizza crust topped with tomato sauce,
             cheese, and pepperoni sausage. Pepperoni is a type of cured and seasoned pork sausage, which is sliced thin
             and added to the pizza. It is a classic and popular pizza variation that is known for its spicy and savory
             flavor.</p>
-          <a href="#" class="btn btn-outline-dark">
+          <a href="/pepperoni" class="btn btn-outline-dark" aria-label="See the Pepperoni recipe in a new tab"
+            target="_blank">
             See more
           </a>
         </div>
         <div class="feature col">
           <div class="my-3">
-            <a href="/">
-              <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="">
-            </a>
+            <img src="https://via.placeholder.com/250x100/F9EB9B/000000" alt="" aria-hidden="true">
           </div>
           <h3 class="fs-2 mb-2">Capricciosa pizza</h3>
           <p>Capricciosa is a type of pizza that typically consists of a pizza crust topped with tomato sauce,
             mozzarella cheese, cooked ham, artichoke, mushroom, and black olives. The name "Capricciosa" means
             "capricious" or "whimsical" in Italian, likely referring to the variety of toppings used to create this
             pizza.</p>
-          <a href="#" class="btn btn-outline-dark">
+          <a href="/capricciosa" class="btn btn-outline-dark" aria-label="See the Capricciosa pizza recipe in a new tab"
+            target="_blank">
             See more
           </a>
         </div>
@@ -140,8 +135,8 @@
     </section>
   </main>
 
-  <footer class="p-5 mt-5 text-secondary-emphasis text-center bg-dark">
-    <img src="assets/brand/pizza2.png" alt="pizza">
+  <footer class="p-5 mt-5 text-white text-center bg-dark">
+    <img src="assets/brand/pizza2.png" alt="A slice of pepperoni pizza with melted cheese.">
     <blockquote class="blockquote mt-3">
       <p>
         Pizza, pizza, round and hot,<br>

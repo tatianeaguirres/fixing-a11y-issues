@@ -21,26 +21,27 @@
 
   <main class="container">
     <section>
-      <h3 class="fs-2 mb-2">Find the best recipe for you</h3>
+      <h3 class="fs-2 mb-2" id="find-recipes">Find the best recipe for you</h3>
       <blockquote class="blockquote">
         <p>Italian food is known for its delicious and rich flavors, which are derived from a combination of
           high-quality ingredients and traditional cooking techniques. One of the key reasons why Italian food is so
           good is the emphasis on using fresh, seasonal ingredients.</p>
       </blockquote>
       <div class="col-12 col-md-6  mt-5">
-        <div class="input-group">
-          <input type="text" class="form-control border-dark" id="search" placeholder="Search for recipes" required>
+        <form class="input-group" id="search">
+          <input type="text" class="form-control border-dark" name="search" id="search-input"
+            placeholder="Search for recipes" required>
           <button class="btn btn-outline-dark">
             <img src="assets/brand/search.png" alt="">
           </button>
-        </div>
+        </form>
       </div>
     </section>
 
     <hr class="col-12 my-5">
 
     <section>
-      <h3 class="fs-2 mb-2">More popular</h3>
+      <h3 class="fs-2 mb-2" id="more-popular">More popular</h3>
       <div class="row g-4 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <div class="my-3">
@@ -90,7 +91,7 @@
     <hr class="col-12 my-5">
 
     <section>
-      <h3 class="fs-2 mb-2">The best pizzas</h3>
+      <h3 class="fs-2 mb-2" id="best-pizzas">The best pizzas</h3>
       <div class="row g-4 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <div class="my-3">
